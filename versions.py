@@ -13,12 +13,12 @@ def get_package_versions(package_name):
         raise Exception(f"Package '{package_name}' not found on PyPI.")
 
 # Example usage
-if __name__ == "__main__":
-    pkg = input("Enter a package name: ")
-    try:
-        versions = get_package_versions(pkg)
-        print(f"\nAvailable versions of '{pkg}':")
-        for v in versions:
-            print(f" - {v}")
-    except Exception as e:
-        print(e)
+# if __name__ == "__main__":
+#     pkg = input("Enter a package name: ")
+#     try:
+#         versions = get_package_versions(pkg)
+#         print(f"\nAvailable versions of '{pkg}':")
+#         for v in versions:
+#             print(f" - {v}")
+#     except Exception as e:
+#         print(e)
